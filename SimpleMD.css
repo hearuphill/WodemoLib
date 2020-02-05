@@ -1,0 +1,163 @@
+#wo-footer{
+width:100%;
+margin:10px auto;
+padding:32px;
+text-align:center
+}
+
+footer a{
+color:white
+}
+
+.wo-entry{
+margin: 10px auto;
+max-width:900px;
+}
+
+@media screen and (max-width: 48em){
+.wo-entry{max-width:98%;}
+}
+
+a {
+color:#09c;
+text-decoration:none
+}
+
+.wo-search-form,#ln-h {
+display:none
+}
+
+.wo-file-main {
+margin-top:10px;
+border-radius:5px 5px 0 0;
+background:#f8f8ff;
+word-wrap:break-word;
+padding:8px
+}
+
+.wo-file-title {
+border-bottom:1px solid #fff;
+text-align:center;
+font-size:1rem;
+margin:0 20px;
+padding:0 10px 10px
+}
+
+.wo-file-main .wo-file-title+p,.wo-file-main p+p {
+text-align:center;
+font-size:.8rem;
+margin:5px 25px 10px;
+padding:0 8px 10px
+}
+
+.wo-file-main img {
+border-radius:10px;
+box-shadow:#999 0 0 10px
+}
+
+.wo-file-description-area {
+display:block;
+font-size:1rem
+}
+
+.wo-file-description-contents {
+display:block;
+margin-top:10px;
+vertical-align:text-top;
+text-align:center;
+text-shadow:none;
+font-size:.9rem
+}
+
+.wo-file-permissions {
+text-align:left
+}
+
+.wo-file-permissions+p {
+color:#999
+}
+
+.wo-file-screenshot {
+background:#ddd;
+text-align:center;
+font-size:1rem;
+padding:9pt 0
+}
+
+.wo-file-screenshot p {
+width:90%;
+margin:0 auto
+}
+
+.wo-file-screenshot img {
+border-radius:5px;
+box-shadow:#999 0 0 10px
+}
+
+#my-entry-whole {
+margin-top:10px;
+width:100%;
+border-radius:5px 5px 0 0;
+background:#ddd;
+text-align:left
+}
+
+#my-entry-title {
+border-bottom:1px solid #eee;
+font-size:1rem
+}
+
+#my-entry-time,#my-entry-title {
+text-align:center;
+margin:0 20px;
+padding:10px 0
+}
+
+#my-entry-time {
+border-bottom:1px dotted #eee;
+color:#999;
+font-size:.8rem
+}
+
+.wo-entry-section.wo-text-markdown {
+text-align:left;
+word-wrap:break-word
+}
+
+.wo-text-markdown pre {
+white-space:pre-wrap;
+word-wrap:break-word
+}
+
+.wo-entry-section.wo-text-markdown pre {
+border:none
+}
+
+.wo-entry-section audio,.wo-entry-section img {
+box-shadow:#a3a3a3 0 0 10px
+}
+
+.wo-entry-section audio {
+width:60%;
+margin:10px
+}
+
+.wo-entry-section {
+border-bottom:1px dotted #eee;
+margin:0 20px;
+padding:10px 0
+}
+
+.wo-main-body>a[href^=#] {
+color:#925
+}
+
+* {
+max-width:100%
+word-wrap:break-word;
+box-sizing:border-box
+}
+
+a.wo-toggle-link,.wo-entry-section a,.wo-main-body>a[href$=wodemo.com/],.wo-main-body>a[href$=wodemo.net],.wo-main-body>a[href*=filetalkdelete],.wo-main-body>div>a[href*=compose],.wo-main-body>div>a[href*=editfile] {
+color:#1ad
+}
