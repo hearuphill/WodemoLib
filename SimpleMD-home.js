@@ -1,5 +1,4 @@
 $(document).ready(function(){
-new VConsole();
 //pagination修改
 $(".pagination>a").addClass("mdui-btn mdui-btn-raised").wrap("<div class=\"mdui-col\">");
 $(".pagination>span").addClass("mdui-btn mdui-btn-raised").wrap("<div class=\"mdui-col\">").attr("disabled", "");
